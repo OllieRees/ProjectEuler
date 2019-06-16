@@ -15,7 +15,7 @@ def isPalindrome(n):
     revDigits = list()
     while(n >= 1):
         revDigits.append(n % 10)
-        n = math.floor(n / 10)
+        n = n // 10
 
     #reverse
     nDigits = list()

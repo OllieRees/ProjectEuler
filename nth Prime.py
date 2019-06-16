@@ -1,5 +1,7 @@
 #check if n is prime
 def isPrime(n):
+    if (n == 1):
+        return False
     for fact in range(2, n):
         if(n % fact == 0):
             return False
@@ -16,4 +18,4 @@ def prime(n):
     return p
 
 if __name__ == '__main__':
-    print (prime(10001))
+    print (prime(20000))

@@ -1,4 +1,4 @@
-def sumFibonacciSequence (n):
+def sumEvenFibs (n):
     sum = 2
     max_index = maxFibNum(n)
     a = 1 #f(n-1)
@@ -25,4 +25,4 @@ def maxFibNum (n):
 
 
 if __name__ == '__main__':
-    print (sumFibonacciSequence(4000000))
+    print (sumEvenFibs(4000000))

@@ -1,5 +1,7 @@
 #check if n is prime
 def isPrime(n):
+    if (n == 1):
+        return False
     for fact in range(2, n):
         if(n % fact == 0):
             return False
