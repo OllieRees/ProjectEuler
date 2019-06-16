@@ -1,8 +1,10 @@
+import math
+
 #check if n is prime
 def isPrime(n):
-    if (n == 1):
+    if (n <= 1):
         return False
-    for fact in range(2, n):
+    for fact in range(2, math.ceil(math.sqrt(n)) + 1):
         if(n % fact == 0):
             return False
     return True
